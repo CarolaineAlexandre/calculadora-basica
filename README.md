@@ -1,2 +1,2 @@
 # calculadora-basica
-Calculadora com 4 operações 
+Basic calculator with four operations
