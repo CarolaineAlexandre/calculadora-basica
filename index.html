@@ -1,0 +1,32 @@
+<!--Carolaine Raissa Ferraz Alexandre - ADS 2ºSEM -->
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h1>Calculadora  Online</h1>
+    <hr>
+    <input class="text" id="num1" type="text" placeholder="Insira o primeiro valor"> <br />
+    <input class="text" id="num2" type="text" placeholder="Insira o segundo valor"> <br />
+    <br>
+    <div clss="text">Escolha o tipo de operação:</div>
+    <input type="radio" name="calc" id="soma" /> Soma<br />
+    <input type="radio" name="calc" id="subtracao" /> Subtração<br />
+    <input type="radio" name="calc" id="multiplicacao" /> Multiplicação<br />
+    <input type="radio" name="calc" id="divisao" /> Divisão<br />
+    <br>
+    <button class="resultado" onclick="main()">Calcular</button>
+    <button class="apagar" onclick="apagar()">Apagar</button><br />
+    <br>
+    <div class="result" id="resp">---</div>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,56 @@
+/*  Carolaine Raissa Ferraz Alexandre - ADS 2ºSEM  */
+html,
+body {
+    height: 80%;
+    Text-align: center;
+    Line-height: 30px;
+    margin: 50px 300px;
+    font-family: arial;
+    font-size: medium;
+    
+}
+
+body{
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    position: center;
+    
+}
+
+
+input {
+    font-family: arial;
+    font-size: large ;
+}
+
+.result {
+    border-style: solid;
+    border-color: #d21f3f;
+    background-color: #4c4c4c2b;
+    border-radius: 10px 10px 10px 10px;
+    font-family: arial;
+    font-style: normal;
+    border-width: 10%;
+    box-sizing: 50%;
+    margin: auto 100px;
+
+}
+
+button {
+    border-style: solid;
+    font-size: large;
+    border-radius: 20px 20px 20px 20px;
+
+}
+
+.apagar{
+    border-color: #990300;
+    background-color: #9a0000;
+    color: #E8E8E8;
+}
+
+.resultado{
+    border-color: #009909;
+    background-color: #249c2e;
+    color: #E8E8E8;
+}
